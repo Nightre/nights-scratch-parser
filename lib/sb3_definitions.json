@@ -104,7 +104,7 @@
             "type": "array",
             "items": [
                 {"type": "string", "description": "name of the variable"},
-                {"$ref":"#/definitions/scalarVal", "description": "value of the variable"}
+                { "description": "value of the variable"}
             ],
             "additionalItems": {"type": "boolean", "enum": [true], "description": "Whether this is a cloud variable"},
             "maxItems": 3
